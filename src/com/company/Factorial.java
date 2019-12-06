@@ -5,15 +5,22 @@ public class Factorial {
         main();
     }
     public static void main() {
-        calcFactorial(10);
-        calcFactorial(20);
+        for(int x = 1; x<=20; x++) {
+            System.out.println(calcFactorial(x));
+        }
 
     }
-    public static void calcFactorial(int x) {
-        int total = 1;
+    public static long calcFactorial(int x) {
+        long total = 1;
         for (x = x; x > 0; x--) {
             total *= x;
-            System.out.println(total);
+        }
+        return total;
+    }
+    public static void calcE(){
+        while(e-olde > .001) {
+            olde = e;
+    
         }
     }
 }
